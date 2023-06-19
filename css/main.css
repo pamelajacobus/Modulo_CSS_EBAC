@@ -42,7 +42,10 @@ header li a {
 
 .articles article img {
     /* height: 180px; */
-    width: 100%;
+    /* width: 100%; */
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
 }
 
 .articles article {
@@ -104,4 +107,20 @@ section h2 {
 
 #economy .articles article a {
     background-color: #ff9f1a;
+}
+
+#entretenimento {
+    background-color: rgb(192, 192, 227);
+}
+
+#entretenimento .articles article a {
+    background-color: rgb(92, 92, 201);
+}
+
+#tecnologia {
+    background-color: rgb(126, 154, 184);
+}
+
+#tecnologia .articles article a {
+    background-color: rgb(49, 84, 121);
 }
